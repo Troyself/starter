@@ -4,3 +4,4 @@
 local opt = vim.opt
 opt.shiftwidth = 8 -- 修改默认缩进
 opt.tabstop = 8
+opt.clipboard = "unnamedplus"
