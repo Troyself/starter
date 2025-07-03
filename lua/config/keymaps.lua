@@ -13,6 +13,9 @@ vim.keymap.set("n", "<leader>mll", "<cmd>Leet<CR>", { desc = "Leet" })
 -- 普通 ChatGPT 聊天窗口
 vim.keymap.set("n", "<leader>mcg", "<cmd>ChatGPT<CR>", { desc = "Open ChatGPT" })
 
+-- Makrdown Preview
+vim.keymap.set("n", "<leader>mmp", "<cmd>MarkdownPreview<CR>", { desc = "Makrdown Preview" })
+
 -- 当前选中的文本发送到 ChatGPT（Visual 模式下）
 vim.keymap.set(
 	"v",
