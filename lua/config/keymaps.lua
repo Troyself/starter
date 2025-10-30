@@ -23,3 +23,6 @@ vim.keymap.set(
 	":ChatGPTEditWithInstructions<CR>",
 	{ desc = "Edit with ChatGPT" }
 )
+
+-- nvim-picgo upload
+vim.keymap.set("n", "<leader>mi", ":UploadClipboard<CR>", { desc = "Upload & Insert Pic (Picgo)" })
