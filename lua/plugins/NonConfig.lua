@@ -7,7 +7,12 @@ return {
 	{
 		"voldikss/vim-floaterm",
 		keys = {
-			{ "<C-_>", "<Cmd>FloatermToggle<CR>", desc = "Toggle Floaterm" }, -- <C-/> 实际等于 <C-_>
+			{
+				"<C-_>",
+				"<Cmd>FloatermToggle<CR>",
+				mode = { "n", "t" },
+				desc = "Toggle Floaterm",
+			},
 		},
 	},
 
